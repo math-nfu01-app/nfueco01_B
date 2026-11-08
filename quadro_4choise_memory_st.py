@@ -226,10 +226,10 @@ colors = [
 ]
 
 labels = [
-    "選択肢1",
-    "選択肢2",
-    "選択肢3",
-    "選択肢4"
+    "Choice1",
+    "Choice2",
+    "Choice3",
+    "Choice4"
 ]
 
 for i, (aa, pp, qq) in enumerate(
