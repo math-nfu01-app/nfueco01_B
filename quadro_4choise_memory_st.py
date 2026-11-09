@@ -12,7 +12,12 @@ from google.oauth2.service_account import Credentials
 # =====================================================
 # フォント設定
 # =====================================================
-plt.rcParams["font.family"] = "Meiryo"
+font_manager.fontManager.addfont("ipaexg.ttf")
+
+plt.rcParams["font.family"] = "IPAexGothic"
+plt.rcParams["axes.unicode_minus"] = False
+
+#plt.rcParams["font.family"] = "Meiryo"
 
 # =====================================================
 # 頂点形式の表示
@@ -226,10 +231,10 @@ colors = [
 ]
 
 labels = [
-    "Choice1",
-    "Choice2",
-    "Choice3",
-    "Choice4"
+    "選択肢1",
+    "選択肢2",
+    "選択肢3",
+    "選択肢4"
 ]
 
 for i, (aa, pp, qq) in enumerate(
